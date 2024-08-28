@@ -11,7 +11,7 @@ function App() {
   return (
     <>
      {/* <MoviesName watchList={watchList} /> */}
-	 <Table netIncomes={netIncomes} />
+	    <Table netIncomes={netIncomes} />
     </>
   )
 }

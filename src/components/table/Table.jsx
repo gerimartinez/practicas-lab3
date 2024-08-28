@@ -7,7 +7,7 @@ const Table = ({netIncomes}) => {
 
 
     return (
-       <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center'}}>
+       <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }}>
             <table>
                 <thead>
                     <tr>
@@ -24,7 +24,7 @@ const Table = ({netIncomes}) => {
                     ))}
                 </tbody>
             </table>
-            <p style={{ fontWeight: 600}}>El promedio de los ingresos netos es: ${promedio}</p>
+            <p style={{ fontWeight: 600 }}>El promedio de los ingresos netos es: ${promedio}</p>
         </div>
     )
     
